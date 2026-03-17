@@ -1,0 +1,52 @@
+# Site settings
+title: Home AoIP
+tagline: Audio over IP for home usage
+description: >-
+  This is a blog on audio over ip for home usage, roc-toolkit itself, 
+  various DIY projects and stuff.
+url: "https://homeaoip.dev"
+github:
+  username: baranovmv
+
+theme: jekyll-theme-chirpy
+
+# Chirpy theme settings
+lang: en
+timezone: Europe/Berlin
+
+avatar: /assets/img/logo.png
+
+social:
+  name: Home AoIP
+  links:
+    - https://github.com/baranovmv
+
+# Self-hosted static assets
+assets:
+  self_host:
+    enabled: false
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
